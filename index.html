@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="includes/style.css">
+		<title>STEAL</title>
+	</head>
+	<body>
+		<div id="wrapper">
+				<header><!-- Logo, upper nav and login go here-->
+					<a id="logo" href="index.html"></a>
+					<nav id="upperNav">
+						<ul>
+							<li><a href="#">STORE</a></li>
+							<li><a href="#">COMMUNITY</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">SUPPORT</a></li>
+						</ul>
+					</nav>
+				</header>
+				<nav id="lowerNav"><!-- lower nav goes here-->
+					<ul>
+						<li><a href="#">Your Store</a></li>
+						<li><a href="#">Games</a></li>
+						<li><a href="#">Software</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">News</a></li>
+						<li id="searchInp"> <!-- search box -->
+							<form name="search" id="search">
+								<input type="text" class="txtInp">
+								<input type="submit" class="Btn" value="Search">
+							</form>
+						</li>
+					</ul>
+				</nav>
+				<main>
+					<form>
+						<span>
+							<label>Box Art:</label><br>
+							<img alt="BoxArt" src="images/Witcher_3_cover_art.jpg"><br>
+						</span>
+						<span>
+							<label>Title:</label><br>
+							<input type="text" name="gameTitle" class="txtInp">
+						</span>
+						
+						<span>
+							<label>Genre:</label><br>
+							<select name="genre" class="txtInp">
+								<option value="action" selected>Action</option>
+								<option value="adventure">Adventure</option>
+								<option value="rpg">Role-Playing</option>
+								<option value="racing">Racing</option>
+							</select>
+						</span>
+						
+						<span>
+							<label>Screenshots:</label><br>
+							<section>
+								<a href="images/Witcher-3-Wild-Hunt-Open-World_big.jpg">
+									<img alt="Screenshot1" src="images/Witcher-3-Wild-Hunt-Open-World.jpg"> 
+								</a>
+								<a href="images/The_Witcher_3_Wild_Hunt_Prepare_for_impact_big.jpg">
+									<img alt="Screenshot2" src="images/The_Witcher_3_Wild_Hunt_Prepare_for_impact.jpg"> 
+								</a>
+								<input type="file" name="upload" accept="video/*,image/*" >
+							</section>
+						</span>
+						
+						<span>
+							<label>Tags:</label><br>
+							<textarea class="txtInp" name="tags" rows="5" cols="40" placeholder="Ex: Horror, Rich Story, Open World..."></textarea>
+						</span>
+						
+						<span id="submitSpan">
+							<input type="submit" class="subBtn" value="Update">
+						</span>
+					</form>
+				</main>
+				
+				<footer>
+					<ul>
+						<li><input type="button" value="Shop By Genre" class="Btn"></li>
+						<li><input type="button" value="About STEAL" class="Btn"></li>
+						<li><input type="button" value="Help" class="Btn"></li>
+						<li><input type="button" value="News Feed" class="Btn"></li>
+					</ul>
+				</footer>
+		</div>
+	</body>
+</html>

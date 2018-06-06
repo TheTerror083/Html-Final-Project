@@ -1,0 +1,133 @@
+*{margin: 0; padding: 0;}
+
+#wrapper {
+	width: 1000px; 
+	margin: 0px auto;
+}
+
+
+img{
+	margin-top:7px;
+}
+
+label{
+	color:#ffffff;
+}
+
+header {
+	background-color:#171a21;
+	display:block;
+	height:106px;
+}
+
+main {
+	height:687px;
+}
+
+footer{
+	height:77px;
+}
+
+#logo{
+	margin-top:10px;
+	position:absolute;
+	background-image:url(../images/logo_invert_small.png); no-repeat;
+	height:71px;
+	width:146px;
+	display:block;
+}
+
+#search{
+	display:inline;
+	margin-left:100px;
+}
+
+#searchInp{
+
+	
+}
+
+span{
+	display:block;
+	margin-top:15px;
+}
+
+.subBtn:hover, .Btn:hover{
+	color:#FFFFFF;
+	background-color:#97C0E3;
+}
+
+.subBtn{
+	width:100px;
+	height:30px;
+	font-size:15px;
+	background-color: #274155;
+	color:#67c1f5;
+	border: none;
+}
+
+#upload{
+	width:100px;
+	height:100px;
+}
+
+#submitSpan{
+	text-align:center;
+}
+
+.txtInp{
+	background-color:#0f2d36;
+	border-color: #000000;
+	border-style:ridge;
+	color:#ffffff;
+}
+
+#upperNav{
+	padding-top:40px;
+	margin-left:170px;
+	
+}
+
+ul{
+	margin-left:60px;
+	list-style: none;
+}
+
+.Btn{
+	font-size:15px;
+	background-color: #274155;
+	color:#67c1f5;
+	border: none;
+	width:120px;
+	height:20px
+}
+
+li{
+	margin-left:5px;
+	float:left;
+}
+
+#lowerNav{
+	background-color:#377097;
+}
+
+#lowerNav > ul{
+	margin-top:20px;
+	height:40px;
+}
+
+#lowerNav > ul > li{
+	height:40px;
+	margin-top:10px;
+	margin-left:40px;
+}
+
+li > a{
+	margin-right:7px;
+	text-decoration: none;
+	color:#ffffff;
+}
+
+li > a:hover{
+	color:#bfbfbf;
+}
