@@ -93,6 +93,11 @@ ul{
 	list-style: none;
 }
 
+#sideText{
+	display:block;
+	float:right;
+}
+
 .Btn{
 	font-size:15px;
 	background-color: #274155;
